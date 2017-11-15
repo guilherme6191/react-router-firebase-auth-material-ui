@@ -18,4 +18,4 @@ This is an example repo for authenticating with Firebase and React Router using 
 * Visit ```localhost:3000```
 
 #### Others:
-Started with [react-router-firebase-auth](https://github.com/tylermcginnis/react-router-firebase-auth)
+It's basically [react-router-firebase-auth](https://github.com/tylermcginnis/react-router-firebase-auth) with [Material-UI](https://github.com/callemall/material-ui) and [Firebase/Firestore](https://firebase.google.com/products/firestore/)
