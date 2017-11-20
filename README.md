@@ -3,6 +3,8 @@ This is an example repo for authenticating with Firebase and React Router using 
 
 *Using React 16.1.1, React Router 4, and Firebase 4.6.0*
 
+### [Live Demo](https://guilherme6191.github.io/react-router-firebase-auth-material-ui/#/)
+
 #### Features:
 * Protected Routes with React Router
 * Register new users with Firebase
