@@ -15,15 +15,3 @@ firebase.initializeApp(config);
 
 export const db = firebase.firestore();
 export const firebaseAuth = firebase.auth;
-
-/**
- * In your .env file
- */ 
-/*
-  REACT_APP_FIREBASE_KEY='## your firebase info here ##'
-  REACT_APP_AUTH_DOMAIN='## your firebase info here ##'
-  REACT_APP_DATABASE_URL='## your firebase info here ##'
-  REACT_APP_PROJECT_ID='## your firebase info here ##'
-  REACT_APP_STORAGE_BUCKET='## your firebase info here ##'
-  REACT_APP_MESSAGING_SENDER_ID='## your firebase info here ##'
-*/
