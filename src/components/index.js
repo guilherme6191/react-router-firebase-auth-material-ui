@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, BrowserRouter, Link, Redirect, Switch } from 'react-router-dom';
+import { Route, HashRouter, Link, Redirect, Switch } from 'react-router-dom';
 import Login from './Login';
 import Register from './Register';
 import Home from './Home';
@@ -96,7 +96,7 @@ export default class App extends Component {
     return this.state.loading === true ? (
       <h1>Loading</h1>
     ) : (
-      <BrowserRouter>
+      <HashRouter>
         <div>
           <AppBar
             title="My App"
@@ -131,7 +131,7 @@ export default class App extends Component {
             </div>
           </div>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
